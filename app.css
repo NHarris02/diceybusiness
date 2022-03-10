@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.btn-container {
+    margin: 1em;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 10em;
+}
+
+.die {
+    cursor: pointer;
+    border: .5px solid black;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 175px;
+    padding-bottom: 20px;
+}
